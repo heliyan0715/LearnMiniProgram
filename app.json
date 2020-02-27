@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/profile/profile",
+    "pages/home/home",
+    "pages/about/about"
+   
+  ],
+  "sitemapLocation": "sitemap26.json"
+}
