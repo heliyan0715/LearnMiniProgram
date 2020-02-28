@@ -1,37 +1,13 @@
-// pages/profile/profile.js
+// pages/category/category.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:"Ms He",
-    wellcome:"欢迎您！",
-    age:"18",
-    students: [
-       {name:"张晓楠", age:20, sex:"女"},
-      { name: "琉古偶", age: 18, sex:  "女"},
-      { name: "马天宇", age: 25, sex:  "男"},
-      { name: "李总贤", age: 20, sex: "男"}],
-      counter:0,
-    nams:"何立艳"
+
   },
-  handaddClick(){
-this.setData({
-  counter:this.data.counter+1
-})
-  },
-  handsubClick(){
-this.setData({
-  counter:this.data.counter-1
-})
-  },
-  changeclick(){
-this.setData({
-nams:this.data.nams="(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤"
-})
-  }
-,
+
   /**
    * 生命周期函数--监听页面加载
    */
